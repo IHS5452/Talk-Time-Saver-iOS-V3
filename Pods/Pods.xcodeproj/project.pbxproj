@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206A91117777072AE4F26C7B12FB83B5 /* Pods-Talk Time Saver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC94D51BFCB69768CCA4DACAA721141B /* Pods-Talk Time Saver-dummy.m */; };
+		3AB93797FFB365B2A2068A31F3633474 /* Pods-Talk Time SaverTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941BDF0BC8F02FB558F788A689E73A8B /* Pods-Talk Time SaverTests-dummy.m */; };
+		66C224DFCD586966E25B409CD0F7DC2C /* Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B43B736FA6483C3BFB5A69B0E2C8A0 /* Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDB9881BC8047818E57AB2BBBB815D02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0B168D73C85333A99949230BAB3A25;
+			remoteInfo = "Pods-Talk Time Saver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F22DA5A849021E6E4257532CE556A1 /* Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		03B43B736FA6483C3BFB5A69B0E2C8A0 /* Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m"; sourceTree = "<group>"; };
+		0C3D82AE20DCA4A0C84FEE0674DB84A5 /* Pods-Talk Time Saver-Talk Time SaverUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Talk Time Saver-Talk Time SaverUITests"; path = "libPods-Talk Time Saver-Talk Time SaverUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF1D05EAC5040EF4E1EA915D6DA0647 /* Pods-Talk Time SaverTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Talk Time SaverTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F2A623EBDBDB7CE5DC67DDB388AB8FF /* Pods-Talk Time SaverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time SaverTests.release.xcconfig"; sourceTree = "<group>"; };
+		1BEAEFB7D69F2BEB38EFC445946E4C9F /* Pods-Talk Time SaverTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Talk Time SaverTests"; path = "libPods-Talk Time SaverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF42ED0A32B4E234567D1D7026AFC40 /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33FB9A23D64354FE4AD2ABAEEB7D441E /* Pods-Talk Time Saver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Talk Time Saver-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EE7A7B4AD304624E0B896DE930FE690 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C4E99BA9B09011ED6F36A56C063BF0A /* Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6119CF3CB98441683335A3FCA4157E90 /* Pods-Talk Time Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		6F1C407F07418E5BF37D7273BC4EC140 /* Pods-Talk Time Saver */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Talk Time Saver"; path = "libPods-Talk Time Saver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796252ECCF79200F5770C663187799AF /* Pods-Talk Time SaverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time SaverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		941BDF0BC8F02FB558F788A689E73A8B /* Pods-Talk Time SaverTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Talk Time SaverTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC94D51BFCB69768CCA4DACAA721141B /* Pods-Talk Time Saver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Talk Time Saver-dummy.m"; sourceTree = "<group>"; };
+		DB0DBE776CD7931CAB28064D805FC0BE /* Pods-Talk Time SaverTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Talk Time SaverTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC6F85767896819CE031A284393EB62C /* Pods-Talk Time Saver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Talk Time Saver-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F91088587523C14AFBC393F1FEBF0226 /* Pods-Talk Time Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Talk Time Saver.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064ACF062B6266CFF5EF0EC2F421DAF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DEA92848FBBE1B0A43FACF8A03D888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4832BE9DB36F939D81BAA690674EA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408054BD015BB12E68C834AD664EF756 /* Pods-Talk Time Saver-Talk Time SaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E99BA9B09011ED6F36A56C063BF0A /* Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.markdown */,
+				02F22DA5A849021E6E4257532CE556A1 /* Pods-Talk Time Saver-Talk Time SaverUITests-acknowledgements.plist */,
+				03B43B736FA6483C3BFB5A69B0E2C8A0 /* Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m */,
+				1CF42ED0A32B4E234567D1D7026AFC40 /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */,
+				3EE7A7B4AD304624E0B896DE930FE690 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */,
+			);
+			name = "Pods-Talk Time Saver-Talk Time SaverUITests";
+			path = "Target Support Files/Pods-Talk Time Saver-Talk Time SaverUITests";
+			sourceTree = "<group>";
+		};
+		62640A8E42A52176D34217EA89817688 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF03F8A10CD8AE2274039DD732185CD3 /* Pods-Talk Time Saver */,
+				408054BD015BB12E68C834AD664EF756 /* Pods-Talk Time Saver-Talk Time SaverUITests */,
+				8ECFBF3DBB0B9187ED80FC7735D217CD /* Pods-Talk Time SaverTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8ECFBF3DBB0B9187ED80FC7735D217CD /* Pods-Talk Time SaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB0DBE776CD7931CAB28064D805FC0BE /* Pods-Talk Time SaverTests-acknowledgements.markdown */,
+				0DF1D05EAC5040EF4E1EA915D6DA0647 /* Pods-Talk Time SaverTests-acknowledgements.plist */,
+				941BDF0BC8F02FB558F788A689E73A8B /* Pods-Talk Time SaverTests-dummy.m */,
+				796252ECCF79200F5770C663187799AF /* Pods-Talk Time SaverTests.debug.xcconfig */,
+				0F2A623EBDBDB7CE5DC67DDB388AB8FF /* Pods-Talk Time SaverTests.release.xcconfig */,
+			);
+			name = "Pods-Talk Time SaverTests";
+			path = "Target Support Files/Pods-Talk Time SaverTests";
+			sourceTree = "<group>";
+		};
+		C7C21826AD88B084A879D8775D9F9B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F1C407F07418E5BF37D7273BC4EC140 /* Pods-Talk Time Saver */,
+				0C3D82AE20DCA4A0C84FEE0674DB84A5 /* Pods-Talk Time Saver-Talk Time SaverUITests */,
+				1BEAEFB7D69F2BEB38EFC445946E4C9F /* Pods-Talk Time SaverTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				C7C21826AD88B084A879D8775D9F9B70 /* Products */,
+				62640A8E42A52176D34217EA89817688 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF03F8A10CD8AE2274039DD732185CD3 /* Pods-Talk Time Saver */ = {
+			isa = PBXGroup;
+			children = (
+				EC6F85767896819CE031A284393EB62C /* Pods-Talk Time Saver-acknowledgements.markdown */,
+				33FB9A23D64354FE4AD2ABAEEB7D441E /* Pods-Talk Time Saver-acknowledgements.plist */,
+				BC94D51BFCB69768CCA4DACAA721141B /* Pods-Talk Time Saver-dummy.m */,
+				6119CF3CB98441683335A3FCA4157E90 /* Pods-Talk Time Saver.debug.xcconfig */,
+				F91088587523C14AFBC393F1FEBF0226 /* Pods-Talk Time Saver.release.xcconfig */,
+			);
+			name = "Pods-Talk Time Saver";
+			path = "Target Support Files/Pods-Talk Time Saver";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2288056F14FD8D3A9452BF4A570B3A11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FF51F15612B88D416B63B628D512F8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89DCB4E14FBEF08D3FD7197C47D97EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F0B168D73C85333A99949230BAB3A25 /* Pods-Talk Time Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4097F1D659F797363C00EAC44830A254 /* Build configuration list for PBXNativeTarget "Pods-Talk Time Saver" */;
+			buildPhases = (
+				5FF51F15612B88D416B63B628D512F8F /* Headers */,
+				004C85D68EE830F0400FF564539F6859 /* Sources */,
+				93DEA92848FBBE1B0A43FACF8A03D888 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Talk Time Saver";
+			productName = "Pods-Talk Time Saver";
+			productReference = 6F1C407F07418E5BF37D7273BC4EC140 /* Pods-Talk Time Saver */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C64D403FEA44BD17F39C6C84FF3BA3A /* Pods-Talk Time SaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2718394F88FF5831CBAA099087260687 /* Build configuration list for PBXNativeTarget "Pods-Talk Time SaverTests" */;
+			buildPhases = (
+				2288056F14FD8D3A9452BF4A570B3A11 /* Headers */,
+				4869EDE44EAB0C933BF7EF144ED7C0FE /* Sources */,
+				E4832BE9DB36F939D81BAA690674EA79 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FAED599EA981D7F91C99E83C1D4FE43 /* PBXTargetDependency */,
+			);
+			name = "Pods-Talk Time SaverTests";
+			productName = "Pods-Talk Time SaverTests";
+			productReference = 1BEAEFB7D69F2BEB38EFC445946E4C9F /* Pods-Talk Time SaverTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B7677BD7BDD3563C21A92F2FD7F51E66 /* Pods-Talk Time Saver-Talk Time SaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5610ED86495595E807BA23ED0B8549B /* Build configuration list for PBXNativeTarget "Pods-Talk Time Saver-Talk Time SaverUITests" */;
+			buildPhases = (
+				E89DCB4E14FBEF08D3FD7197C47D97EA /* Headers */,
+				80AA061F7645731E07B2076BA9DF9847 /* Sources */,
+				064ACF062B6266CFF5EF0EC2F421DAF7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Talk Time Saver-Talk Time SaverUITests";
+			productName = "Pods-Talk Time Saver-Talk Time SaverUITests";
+			productReference = 0C3D82AE20DCA4A0C84FEE0674DB84A5 /* Pods-Talk Time Saver-Talk Time SaverUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C7C21826AD88B084A879D8775D9F9B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0B168D73C85333A99949230BAB3A25 /* Pods-Talk Time Saver */,
+				B7677BD7BDD3563C21A92F2FD7F51E66 /* Pods-Talk Time Saver-Talk Time SaverUITests */,
+				9C64D403FEA44BD17F39C6C84FF3BA3A /* Pods-Talk Time SaverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		004C85D68EE830F0400FF564539F6859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206A91117777072AE4F26C7B12FB83B5 /* Pods-Talk Time Saver-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4869EDE44EAB0C933BF7EF144ED7C0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB93797FFB365B2A2068A31F3633474 /* Pods-Talk Time SaverTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AA061F7645731E07B2076BA9DF9847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C224DFCD586966E25B409CD0F7DC2C /* Pods-Talk Time Saver-Talk Time SaverUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAED599EA981D7F91C99E83C1D4FE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Talk Time Saver";
+			target = 6F0B168D73C85333A99949230BAB3A25 /* Pods-Talk Time Saver */;
+			targetProxy = FDB9881BC8047818E57AB2BBBB815D02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F7924B5E83C1457228FAF9A8694CAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2A623EBDBDB7CE5DC67DDB388AB8FF /* Pods-Talk Time SaverTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FB4C7CE8DF98C8FC7C317833DFE8EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91088587523C14AFBC393F1FEBF0226 /* Pods-Talk Time Saver.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98E551BEED2DB787A6D63D44BD707300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796252ECCF79200F5770C663187799AF /* Pods-Talk Time SaverTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B873B408ED0DFB6236D2B071CE0E39E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6119CF3CB98441683335A3FCA4157E90 /* Pods-Talk Time Saver.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0DBBBBF6C7B0C13E2C871C88DDC1041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF42ED0A32B4E234567D1D7026AFC40 /* Pods-Talk Time Saver-Talk Time SaverUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9934D0DABD24994C0D02AF9604E9957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE7A7B4AD304624E0B896DE930FE690 /* Pods-Talk Time Saver-Talk Time SaverUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2718394F88FF5831CBAA099087260687 /* Build configuration list for PBXNativeTarget "Pods-Talk Time SaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E551BEED2DB787A6D63D44BD707300 /* Debug */,
+				4F7924B5E83C1457228FAF9A8694CAFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4097F1D659F797363C00EAC44830A254 /* Build configuration list for PBXNativeTarget "Pods-Talk Time Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B873B408ED0DFB6236D2B071CE0E39E9 /* Debug */,
+				7FB4C7CE8DF98C8FC7C317833DFE8EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5610ED86495595E807BA23ED0B8549B /* Build configuration list for PBXNativeTarget "Pods-Talk Time Saver-Talk Time SaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DBBBBF6C7B0C13E2C871C88DDC1041 /* Debug */,
+				F9934D0DABD24994C0D02AF9604E9957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
